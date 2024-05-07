@@ -19,28 +19,38 @@ btnCalcular.addEventListener('click', function(){
     const totalFinal = precio - pagoInicial;
     const pagoMensual = totalFinal / plazo;
 
-    document.getElementById('idPagoinicial').value = $${pagoInicial.toFixed(2)};
-    document.getElementById('idTotalfin').value = $${totalFinal.toFixed(2)};
-    document.getElementById('idPagomensual').value = $${pagoMensual.toFixed(2)};
+    document.getElementById('idPagoinicial').value = `$${pagoInicial.toFixed(2)}`;
+    document.getElementById('idTotalfin').value = `$${totalFinal.toFixed(2)}`;
+    document.getElementById('idPagomensual').value = `$${pagoMensual.toFixed(2)}`;
 
-     switch (parseInt(idOpcion)) {
+    let res;
+    switch (parseInt(porcentajeInicial)) {
         case 1:
-            res = 0.25;break;
+            res = 0.25;
+            break;
         case 2:
-            res = 0.3;break;
+            res = 0.3;
+            break;
         case 3:
-            res = 0.5;break;
+            res = 0.5;
+            break;
         case 4:
-            res = 0.7;break;
+            res = 0.7;
+            break;
     }
-    switch (parseInt(idOpcion2)) {
+    
+    switch (parseInt(plazo)) {
         case 1:
-            res = 25;break;
+            res = 25;
+            break;
         case 2:
-            res = 36;break;
+            res = 36;
+            break;
         case 3:
-            res = 45;break;
+            res = 45;
+            break;
         case 4:
-            res = 60;break;
+            res = 60;
+            break;
     }
-})
+});
