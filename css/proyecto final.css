@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-color:rgb(190, 145, 249);
+    color:black;
+}
+ul {
+    text-align: center;
+    padding: 10px;
+}
+li {
+    display: inline;
+    padding: 10px,30px;
+margin: 3em;
+}
+li a:hover {
+    color:rgb(255, 108, 108);
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+#contenedor {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+#encabezado {
+    width: 90%;
+    background-color:rgb(255, 198, 232);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+#menu {
+    height: 60px;
+    background-color:blanchedalmond;
+    margin: 1em;
+    border-radius: 5px;
+}
+#titulo {
+    height: 30px;
+    background-color:blanchedalmond;
+    margin: 1em;
+    border-radius: 5px;
+}
+#contenedorPays {
+    width: 800px;
+    height: 970px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+#contenedorElote {
+    width: 800px;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+#contenedorBrownie {
+    width: 800px;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+#contenedorBollo {
+    width: 800px;
+    height: 670px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+#contenedorPastel {
+    width: 800px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+#contenedorContacto {
+    width: 800px;
+    height: 150px;
+    background-color:blanchedalmond;
+    margin: 20px;
+    margin-left: 2px;
+    padding: 20px;
+}
+#pie {
+    height: 60px;
+    background-color: rgb(0, 255, 115);
+    margin: 1.5em;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+#pie h5{
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(4, 4, 4);
+}
+.contenedorFormulario {
+    margin: auto;
+    background-color: lemonchiffon;
+    width: 600px;
+    height: 1000px;
+    border: 5px solid black;
+}
+.nombre {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.nombre input {
+    width: 420px;
+    height: 25px;
+    margin-left: 20px;
+}
+.establecimiento {
+    font-weight: bold;
+    text-align: right;
+    margin-top: -130px;
+    padding-right: 225px;
+    margin-bottom: 100px;
+}
+.establecimiento select{
+    width: 155px;
+    margin-left: 20px;
+    height: 25px;
+}
+.otro {
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.otro input {
+    width: 200px;
+    height: 15px;
+    margin-left: 10px;
+
+}.productoElote {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-right: 225px;
+    margin-bottom: 20px;
+}
+.productoElote select{
+    width: 155px;
+    margin-left: 30px;
+    height: 35px;
+}
+
+.productoGuayaba {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-right: 225px;
+    margin-bottom: -5px;
+}
+.productoGuayaba select{
+    width: 155px;
+    margin-left: 10px;
+    height: 35px;
+}
+.productoPlatano {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -10px;
+    padding-right: 225px;
+    margin-bottom: 30px;
+}
+.productoPlatano select{
+    width: 155px;
+    margin-left: 16px;
+    height: 35px;
+}
+.productoQueso {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -10px;
+    padding-right: 225px;
+    margin-bottom: 30px;
+}
+.productoQueso select{
+    width: 155px;
+    margin-left: 26px;
+    height: 35px;
+}
+.cantidad {
+    font-weight: bold;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: -34px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+.cantidad select{
+    width: 155px;
+    margin-left: 26px;
+    height: 35px;
+}
+.cantidad0 {
+    font-weight: bold;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: -55px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.cantidad0 select{
+    width: 155px;
+    margin-left: 26px;
+    height: 35px;
+}
+.cantidad1 {
+    font-weight: bold;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: -63px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+.cantidad1 select{
+    width: 155px;
+    margin-left: 26px;
+    height: 35px;
+}
+.cantidad2 {
+    font-weight: bold;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: -63px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+.cantidad2 select{
+    width: 155px;
+    margin-left: 26px;
+    height: 35px;
+}
+.brownie1 {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.brownie1 input {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+.bollito1 {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bollito1 input {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+.fechaEntrega {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.fechaEntrega input {
+    width: 150px;
+    margin-left: 20px;
+    height: 25px;
+}
+.cardPastel {
+    box-shadow: 0 4px 8px 0 color(srgb red green blue);
+    overflow: hidden;
+    max-width: 400px;
+    margin: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.cardPastel: :hover{
+max-width: 310px;
+}
+.cardBollo {
+    box-shadow: 0 4px 8px 0 color(srgb red green blue);
+    overflow: hidden;
+    max-width: 400px;
+    margin: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.cardBollo: :hover{
+max-width: 310px;
+}
+.cardBrownie {
+    box-shadow: 0 4px 8px 0 color(srgb red green blue);
+    overflow: hidden;
+    max-width: 400px;
+    margin: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.cardBrownie: :hover{
+max-width: 310px;
+}
+.cardPay {
+    box-shadow: 0 4px 8px 0 color(srgb red green blue);
+    overflow: hidden;
+    max-width: 400px;
+    margin: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.cardPay: :hover{
+max-width: 310px;
+}
+.cardPan {
+    box-shadow: 0 4px 8px 0 color(srgb red green blue);
+    overflow: hidden;
+    max-width: 400px;
+    margin: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.cardPan: :hover{
+max-width: 310px;
+}
+.imgPan {
+    width: 50%;
+    justify-items: center;
+}
+.imgPan:hover{
+    width: 75%;
+}
+.img {
+    width: 30%;
+    justify-items: center;
+}
+.img:hover{
+    width: 60%;
+}
+.imgPastel {
+    width: 45%;
+    justify-items: center;
+}
+.imgPastel:hover{
+    width: 60%;
+}
