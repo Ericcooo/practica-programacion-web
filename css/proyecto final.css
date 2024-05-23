@@ -26,7 +26,7 @@ li a:hover {
     
 }
 #contenedor {
-    width: 800px;
+    width: 750px;
     height: 300px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
@@ -44,6 +44,7 @@ li a:hover {
     background-color:blanchedalmond;
     margin: 1em;
     border-radius: 5px;
+    cursor: pointer;
 }
 #titulo {
     height: 30px;
@@ -52,46 +53,46 @@ li a:hover {
     border-radius: 5px;
 }
 #contenedorPays {
-    width: 800px;
+    width: 650px;
     height: 970px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 20px;
 }
 #contenedorElote {
-    width: 800px;
+    width: 650px;
     height: 530px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 20px;
 }
 #contenedorBrownie {
-    width: 800px;
+    width: 650px;
     height: 530px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 20px;
 }
 #contenedorBollo {
-    width: 800px;
+    width: 650px;
     height: 670px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 20px;
 }
 #contenedorPastel {
-    width: 800px;
+    width: 650px;
     height: 520px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 20px;
 }
 #contenedorContacto {
-    width: 800px;
+    width: 650px;
     height: 150px;
     background-color:blanchedalmond;
     margin: 20px;
-    margin-left: 2px;
+    margin-left: 20px;
     padding: 20px;
 }
 #pie {
@@ -367,4 +368,40 @@ max-width: 310px;
 }
 .imgPastel:hover{
     width: 60%;
+}
+.large-button {
+    font-size: 1.5em; /* Aumenta el tamaño del texto */
+    padding: 15px 30px; /* Aumenta el relleno (padding) del botón */
+    border-radius: 8px; /* Hace los bordes redondeados */
+    border: 2px solid #000; /* Añade un borde */
+    background-color: #4CAF50; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.large-button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el cursor */
+}
+select {
+    cursor: pointer;
+}
+input[type="date"] {
+    cursor: pointer; /* Cambia el cursor a pointer */
+}
+input[type="radio"] {
+    cursor: pointer; /* Cambia el cursor a pointer */
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    .large-button {
+        font-size: 1em;
+        padding: 10px;
+    }
 }

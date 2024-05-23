@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-color:rgb(223, 236, 254);
+    color:black;
+}
+#contenedor{
+    width: 750px;
+    height: 380px;
+    background-color: rgb(251, 255, 183);
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+#pedido{
+    width: 200px;
+    height: 15px;
+    background-color: rgba(235, 125, 255, 0.768);
+    margin: auto;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+#pays{
+    width: 400px;
+    height: 25px;
+    background-color: rgb(254, 187, 224);
+    margin: auto;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
